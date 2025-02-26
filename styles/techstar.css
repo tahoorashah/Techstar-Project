@@ -93,7 +93,7 @@ body{
     top:908px;
     position: absolute;
     width: 1500px;
-    height: 2000px;
+    height: 1800px;
     background-color: rgb(2, 2, 37);
 }
 .des-line{
@@ -144,17 +144,17 @@ body{
     font-size: 32px;
     width: 500px;
    margin-left: 250px;
-   margin-top: 20px;
+   margin-top: 30px;
     color:black;
     text-decoration: underline;
     
   }
   .row2{
     padding-top: 10px;
-    padding-left: 60px;
-    margin-top: 150px;
+    padding-left: 0px;
+    margin-top: 180px;
     margin-left: -600px;
-    width: 350px;
+    width: 495px;
     line-height: 25px;
     font-size: 19px;
     font-family: 'Cursive';
@@ -177,7 +177,7 @@ body{
   .tag{
     
     color: aliceblue;
-    margin-left: 400px;
+    margin-left: 350px;
     margin-top: 70px;
     font-size: 35px;
     font-family: Roboto;
@@ -187,16 +187,275 @@ body{
     background-color: aliceblue;
     width: 160px;
    height: 160px;
-   left:50px;
+   left:80px;
   top:150px;
   border-radius:400px;
-
+  }
+  .g-background:hover{
+    background-color:lightskyblue;
+  }
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Moves the image up */
+    }
+    100% {
+      transform: translateY(0); /* Moves the image back down */
+    }
+  }
+  
+  .g-background{
+    animation: float 2s ease-in-out infinite; /* Apply the animation to the image */
   }
   .g-pic{
     position: relative;
-    width:50px;
-    left:55px;
-    top:50px;
+    width:60px;
+    left:50px;
+    top:40px;
     border-style:bold ;
-    border-radius: 30pxpx;
+    border-radius: 30px;
+    transition: 0.15s;
+
+  }
+
+  .g-line{
+    position: relative;
+    top:28px;
+    left: 57px;
+    font-family: Roboto;
+    font-size: 16px;
+    color: black;
+    transition: 0.15s;
+  }
+  .g-line:hover{
+    color: white;
+    
+  }
+
+  .a-background{
+    position: absolute;
+    background-color: aliceblue;
+    width: 160px;
+   height: 160px;
+   left:260px;
+  top:150px;
+  border-radius:400px;
+  
+  }
+  .a-background:hover{
+    background-color:lightskyblue;
+  }
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Moves the image up */
+    }
+    100% {
+      transform: translateY(0); /* Moves the image back down */
+    }
+  }
+  
+  .a-background{
+    animation: float 2s ease-in-out infinite; /* Apply the animation to the image */
+  }
+  .a-pic{
+    position: relative;
+    width:60px;
+    left:50px;
+    top:40px;
+    border-style:bold ;
+    border-radius: 30px;
+    transition: 0.15s;
+
+  }
+
+  .a-line{
+    position: relative;
+    top:28px;
+    left: 57px;
+    font-family: Roboto;
+    font-size: 16px;
+    color: black;
+    transition: 0.15s;
+  }
+  .a-line:hover{
+    color: white;
+    
+  }
+
+  
+  .i-background{
+    position: absolute;
+    background-color: aliceblue;
+    width: 160px;
+   height: 160px;
+   left:450px;
+  top:150px;
+  border-radius:400px;
+  }
+  .i-background:hover{
+    background-color:lightskyblue;
+  }
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Moves the image up */
+    }
+    100% {
+      transform: translateY(0); /* Moves the image back down */
+    }
+  }
+  
+  .i-background{
+    animation: float 2s ease-in-out infinite; /* Apply the animation to the image */
+  }
+  .i-pic{
+    position: relative;
+    width:60px;
+    left:50px;
+    top:40px;
+    border-style:bold ;
+    border-radius: 50px;
+    transition: 0.15s;
+
+  }
+
+  .i-line{
+    position: relative;
+    top:28px;
+    left: 50px;
+    font-family: Roboto;
+    font-size: 16px;
+    color: black;
+    transition: 0.15s;
+  }
+  .i-line:hover{
+    color: white;
+    
+  }
+
+
+  .yt-background{
+    position: absolute;
+    background-color: aliceblue;
+    width: 160px;
+   height: 160px;
+   left:640px;
+  top:150px;
+  border-radius:400px;
+  }
+  .yt-background:hover{
+    background-color:lightskyblue;
+  }
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Moves the image up */
+    }
+    100% {
+      transform: translateY(0); /* Moves the image back down */
+    }
+  }
+  
+  .yt-background{
+    animation: float 2s ease-in-out infinite; /* Apply the animation to the image */
+  }
+  .yt-pic{
+    position: relative;
+    width:80px;
+    height: 80px;
+    left:40px;
+    top:34px;
+    border-style:bold ;
+    border-radius: 30px;
+    transition: 0.15s;
+
+  }
+
+  .yt-line{
+    position: relative;
+    top:15px;
+    left: 57px;
+    font-family: Roboto;
+    font-size: 16px;
+    color: black;
+    transition: 0.15s;
+  }
+  .yt-line:hover{
+    color: white;
+    
+  }
+
+  .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+  }
+  .left{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .leftside-one{
+    margin-top:2430px;
+   color:rgb(7, 7, 241) ;
+   font-size: 32px;
+   font-family: Roboto;
+   font-weight: bold;
+   margin-left: 30px;
+  }
+  .leftside-two{
+    color:rgb(53, 50, 50);
+    font-size: 19px;
+    font-family: Roboto;
+    font-weight: bold;
+    margin-left: 25px;
+  }
+  .right{
+    display: flex;
+    flex-direction: column;
+  }
+  .rightside-one{
+    margin-top:2430px;
+   color:rgb(59, 56, 56);
+   font-size: 35px;
+   font-family: Roboto;
+   margin-right: 100px;
+  }
+  .rightside-two{
+    margin-top: 20px;
+    font-size: 19px;
+    font-family: cursive;
+    margin-left: 40px;
+  }
+  .rightside-two:hover{
+    color: blue;
+    cursor: pointer;
+  }
+  .rightside-three{
+    font-size: 19px;
+    font-family: cursive;
+    margin-left: 35px;
+  }
+  .rightside-three:hover{
+    color: blue;
+    cursor: pointer;
+  }
+  .rightside-four{
+    font-size: 19px;
+    font-family: cursive;
+    margin-left: 48px;
+  }
+  .rightside-four:hover{
+    color: blue;
+    cursor: pointer;
   }
