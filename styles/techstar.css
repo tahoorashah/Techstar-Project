@@ -167,9 +167,36 @@ body{
     flex-direction: row;
     position: relative;
    background-color: rgb(213, 219, 224);
-   width: 800px;
-   right: 3px;
-   height: 600px;
-   border-top-right-radius: 200px;
-   border-bottom-right-radius: 200px;
+   width: 900px;
+    left: 400px;
+   height: 400px;
+   top:90px;
+   border-top-left-radius: 200px;
+   border-bottom-left-radius: 200px;
+  }
+  .tag{
+    
+    color: aliceblue;
+    margin-left: 400px;
+    margin-top: 70px;
+    font-size: 35px;
+    font-family: Roboto;
+  }
+  .g-background{
+    position: absolute;
+    background-color: aliceblue;
+    width: 160px;
+   height: 160px;
+   left:50px;
+  top:150px;
+  border-radius:400px;
+
+  }
+  .g-pic{
+    position: relative;
+    width:50px;
+    left:55px;
+    top:50px;
+    border-style:bold ;
+    border-radius: 30pxpx;
   }
