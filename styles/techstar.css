@@ -1,5 +1,16 @@
 body{
     font-family: Roboto;
+    
+}
+*
+{
+  scroll-behavior: smooth;
+}
+a
+{
+  text-decoration: none;
+  color: inherit;
+  
 }
 .head{
     display: flex;
@@ -43,6 +54,7 @@ body{
     margin-right: 50px;
     cursor: pointer;
     transition: 0.15s;
+    
 }
 .about:hover{
     color: blueviolet;
